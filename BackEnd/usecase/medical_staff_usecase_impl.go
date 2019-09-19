@@ -1,4 +1,4 @@
-/*created by H.MLK*/
+
 package usecase
 
 import (
@@ -71,12 +71,9 @@ func (MedicalStaffUsecase *MedicalStaffUsecaseImpl) DeleteByID(id string) error 
 }
 
 
-func (MedicalStaffUsecase *MedicalStaffUsecaseImpl) GetByUserPass(u string , p string) (*model.MedicalStaff, error) {
-	MedicalStaff, err := MedicalStaffUsecase.MedicalStafftRepository.FindByUserPass(u , p)
-	if err != nil {
-		return nil, err
-	}
-	return MedicalStaff, nil
+func (MedicalStaffUsecase *MedicalStaffUsecaseImpl) GetByUserPass(u string , p string) bool {
+	err := MedicalStaffUsecase.MedicalStafftRepository.FindByUserPass(u , p)
+	return err
 }
 
 

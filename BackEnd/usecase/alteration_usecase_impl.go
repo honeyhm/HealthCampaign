@@ -1,9 +1,9 @@
-/*created by H.MLK*/
 package usecase
 
 import (
-	"authorize/model"
-	"authorize/repository"
+
+	"HealthCampaign/BackEnd/model"
+	"HealthCampaign/BackEnd/repository"
 	"github.com/kataras/golog"
 )
 

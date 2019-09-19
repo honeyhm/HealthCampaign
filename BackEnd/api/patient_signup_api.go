@@ -11,7 +11,7 @@ func PatientSignup(Ctx iris.Context){
 	var p model.Patient
 	Ctx.ReadJSON(&p)
 	p.Id=bson.NewObjectId()
-	_,svErr:=PatientUsecase.Save(&p)
+	_,svErr:=PatientUsecase.SavePatient(&p)
 	golog.Info(svErr)
 	Ctx.JSON("success")
 }
