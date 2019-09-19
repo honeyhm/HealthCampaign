@@ -7,7 +7,8 @@ type MedicalStaff struct {
 	Id         		bson.ObjectId `bson:"_id"`
 	StaffName       string        `bson:"staff_name"`
 	Subject        	string        `bson:"subject"`
-	ExpertKnowledge string        `bson:"expert_knowledge"`
+	ExpertKnowledge int           `bson:"expert_knowledge"` /// 0 : omoomi , 1: maghzoAsaab , 2: cheshm  , 3:zibayii ,
+	//4 :zanan , 5 : goosho halgho bini , 6 :dakheli ,7 : ortoped
 	Gender         	bool   		  `bson:"gender"`
 	ProfileImage  	string        `bson:"profile_image"`
 	PhoneNumber   	string        `bson:"phone_number"`

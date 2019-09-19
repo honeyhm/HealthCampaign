@@ -1,9 +1,8 @@
-/*created by H.MLK*/
 package usecase
 
 import (
-	"authorize/model"
-	"authorize/repository"
+	"HealthCampaign/BackEnd/model"
+	"HealthCampaign/BackEnd/repository"
 	"github.com/kataras/golog"
 )
 
@@ -49,15 +48,14 @@ func (PatientUsecase *PatientUsecaseImpl) GetByID(id string) (*model.Patient, er
 	}
 	return Patient, nil
 }
-//find Patient by id
-//func (PatientUsecase *PatientUsecaseImpl) GetByNum(id string) (*model.Patient, error) {
-//	Patient, err := PatientUsecase.PatienttRepository.FindByNum(id)
-//	//err:=UserUsecase.userRepository.FindByID(id)
-//	if err != nil {
-//		return nil, err
-//	}
-//	return Patient, nil
-//}
+
+func (PatientUsecase *PatientUsecaseImpl) GetByUserPass(u string , p string) (*model.Patient, error) {
+	Patient, err := PatientUsecase.PatienttRepository.FindByUserPass(u , p)
+	if err != nil {
+		return nil, err
+	}
+	return Patient, nil
+}
 
 
 

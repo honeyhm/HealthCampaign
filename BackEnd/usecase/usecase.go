@@ -1,17 +1,15 @@
-
 package usecase
 
 import (
-	"authorize/model"
+	"HealthCampaign/BackEnd/model"
 )
 
 
-type PersonUsecase interface {
-	SavePerson(user *model.Person) (*model.Person, error)
-	UpdatePerson(string, *model.Person) (*model.Person, error)
-	GetByID(string) (*model.Person, error)
-	GetAll() (model.Persons, error)
-	//GetByNum(string) (*model.Person, error)
+type MedicalCenterUsecase interface {
+	SaveMedicalCenter(user *model.MedicalCenter) (*model.MedicalCenter, error)
+	UpdateMedicalCenter(string, *model.MedicalCenter) (*model.MedicalCenter, error)
+	GetByID(string) (*model.MedicalCenter, error)
+	GetAll() (model.MedicalCenters, error)
 }
 
 
@@ -20,7 +18,7 @@ type DiseaseUsecase interface {
 	UpdateDisease(string, *model.Disease) (*model.Disease, error)
 	GetByID(string) (*model.Disease, error)
 	GetAll() (model.Diseases, error)
-	//GetByNum(string) (*model.Disease, error)
+
 }
 
 
@@ -29,7 +27,7 @@ type CampaignUsecase interface {
 	UpdateCampaign(string, *model.Campaign) (*model.Campaign, error)
 	GetByID(string) (*model.Campaign, error)
 	GetAll() (model.Campaigns, error)
-	//GetByNum(string) (*model.Campaign, error)
+
 }
 
 
@@ -39,7 +37,6 @@ type AlterationUsecase interface {
 	UpdateAlteration(string, *model.Alteration) (*model.Alteration, error)
 	GetByID(string) (*model.Alteration, error)
 	GetAll() (model.Alterations, error)
-	//GetByNum(string) (*model.Alteration, error)
 }
 
 
@@ -47,26 +44,37 @@ type PatientUsecase interface {
 	SavePatient(user *model.Patient) (*model.Patient, error)
 	UpdatePatient(string, *model.Patient) (*model.Patient, error)
 	GetByID(string) (*model.Patient, error)
+	GetByUserPass( string ,  string) (*model.Patient, error)
 	GetAll() (model.Patients, error)
-	//GetByNum(string) (*model.Patient, error)
 }
 
-//
-//type UserUsecase interface {
-//	SaveUser(user *model.User) (*model.User, error)
-//	UpdateUser(string, *model.User) (*model.User, error)
-//	GetByID(string) (*model.User, error)
-//	GetByToken(string) (*model.User, error)
-//	GetByName(string) (*model.User, error)
-//	GetByUserName(string) (*model.User, error)
-//	GetAll() (model.Users, error)
-//	GetByPozId( string) (*model.User, error)
-//}
-//
-//type TokenUsecase interface {
-//	SaveToken(user *model.Token) (*model.Token, error)
-//	UpdateToken(string, *model.Token) (*model.Token, error)
-//	GetByID(string) (*model.Token, error)
-//	DeleteByID(string) error
-//	GetAll() (model.Tokens, error)
-//}
+type MedicalStaffUsecase interface {
+	SaveMedicalStaff(user *model.MedicalStaff) (*model.MedicalStaff, error)
+	UpdateMedicalStaff(string, *model.MedicalStaff) (*model.MedicalStaff, error)
+	GetByID(string) (*model.MedicalStaff, error)
+	GetByUserPass( string ,  string) (*model.MedicalStaff, error)
+	GetAll() (model.MedicalStaffs, error)
+}
+
+
+type ProgressUsecase interface {
+	SaveProgress(user *model.Progress) (*model.Progress, error)
+	UpdateProgress(string, *model.Progress) (*model.Progress, error)
+	GetByID(string) (*model.Progress, error)
+	GetAll() (model.Progresses, error)
+}
+
+
+type GroupUsecase interface {
+	SaveGroup(user *model.Group) (*model.Group, error)
+	UpdateGroup(string, *model.Group) (*model.Group, error)
+	GetByID(string) (*model.Group, error)
+	GetAll() (model.Groups, error)
+}
+
+type MessageUsecase interface {
+	SaveMessage(user *model.Message) (*model.Message, error)
+	UpdateMessage(string, *model.Message) (*model.Message, error)
+	GetByID(string) (*model.Message, error)
+	GetAll() (model.Messages, error)
+}

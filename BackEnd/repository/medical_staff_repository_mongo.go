@@ -66,6 +66,9 @@ func(r *MedicalStaffRepositoryMongo) FindByUserPass (UserName string ,Password s
 
 
 
+
+
+
 func (r *MedicalStaffRepositoryMongo) FindAll() (model.MedicalStaffs, error) {
 	var MedicalStaffs model.MedicalStaffs
 

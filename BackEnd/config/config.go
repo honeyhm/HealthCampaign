@@ -7,11 +7,13 @@ const (
 	MongoHost   string = "localhost"
 	MongoDbName string = "HealthCampaign"
 
-	CollectionUser                string = "user"
+	CollectionAlteration          string = "alteration"
 	CollectionPatient             string = "patient"
+	CollectionGroup               string = "group"
+	CollectionProgress            string = "progress"
 	CollectionDisease             string = "disease"
 	CollectionCampaign            string = "campaign"
+	CollectionMessage             string = "message"
 	CollectionMedicalCenter       string = "medicalCenter"
 	CollectionMedicalStaff        string = "medicalStaff"
-	CollectionCampaignActivity    string = "campaignActivity"
 )
