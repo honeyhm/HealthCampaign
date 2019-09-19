@@ -3,11 +3,11 @@
 package main
 
 import (
-	"authorize/api"
-	"authorize/config"
-	"authorize/repository"
-	"authorize/usecase"
-	"authorize/web/controller"
+	"AbsharAutomation/config"
+	"HealthCampaign/BackEnd/api"
+	"HealthCampaign/BackEnd/repository"
+	"HealthCampaign/BackEnd/usecase"
+	"HealthCampaign/BackEnd/web/controller"
 	_ "github.com/kataras/golog"
 	"github.com/kataras/iris"
 
@@ -91,9 +91,6 @@ func InitApp(db *mgo.Database){
 	tokenRepository := repository.NewTokenRepositoryMongo(db,config.CollectionToken)
 	tokenUsecase = usecase.NewTokenUsecase(tokenRepository)
 
-	personRepository := repository.NewPersonRepositoryMongo(db , config.CollectionPerson)
-	personUsecase = usecase.NewPersonUsecase(personRepository)
-
 
 	
 	//letterArchiveRepository := repository.NewFlowRepositoryMongo(db,config.CollectionLetterArchive)
@@ -115,5 +112,5 @@ func InitWeb(){
 
 func ApiControlller(app *iris.Application){
 	app.Get("/userget",api.GetStudent)
-	app.Post("/t",api.)
+	app.Post("/t",api.PostStudent)
 }

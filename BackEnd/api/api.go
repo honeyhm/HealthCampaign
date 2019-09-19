@@ -1,10 +1,8 @@
 package api
 
 import (
-	"authorize/config"
-	_"authorize/model"
-	"authorize/usecase"
-
+	"HealthCampaign/BackEnd/config"
+	"HealthCampaign/BackEnd/usecase"
 	_"strings"
 
 	_"github.com/kataras/golog"

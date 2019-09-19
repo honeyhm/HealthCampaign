@@ -6,7 +6,6 @@ import (
 	"github.com/kataras/iris"
 	"gopkg.in/mgo.v2/bson"
 	"time"
-	"authorize/model"
 )
 
 func GetStudent(Ctx iris.Context) {
@@ -52,12 +51,12 @@ func GetStudent(Ctx iris.Context) {
 }
 
 
-
-func PostStudent(Ctx iris.Context) {
-	var s model.Person
-	Ctx.ReadJSON(&s)
-	_ , gtPoErr := PersonUsecase.SavePerson(&s)
-	golog.Info(gtPoErr)
-	Ctx.JSON("succsess")
-
-}
+//
+//func PostStudent(Ctx iris.Context) {
+//	var s model.Person
+//	Ctx.ReadJSON(&s)
+//	_ , gtPoErr := PersonUsecase.SavePerson(&s)
+//	golog.Info(gtPoErr)
+//	Ctx.JSON("succsess")
+//
+//}
