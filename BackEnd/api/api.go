@@ -11,11 +11,16 @@ import (
 	_"gopkg.in/mgo.v2/bson"
 )
 
-var UserUsecase usecase.UserUsecase
-var TokenUsecase usecase.TokenUsecase
-var PersonUsecase usecase.PersonUsecase
+var AlterationUsecase usecase.AlterationUsecase
+var CampaignUsecase usecase.CampaignUsecase
+var DiseaseUsecase usecase.DiseaseUsecase
+var GroupUsecase usecase.GroupUsecase
+var MedicalCenterUsecase usecase.MedicalCenterUsecase
+var MedicalStaffUsecase usecase.MedicalStaffUsecase
+var MessageUsecase usecase.MessageUsecase
+var PatientUsecase usecase.PatientUsecase
+var ProgressUsecase usecase.ProgressUsecase
 
-//var LetterArchiveUsecase usecase.LetterArchiveUsecase
 
 var Sess = sessions.New(sessions.Config{Cookie: config.CookieNameForSessionID, AllowReclaim: true})
 

@@ -13,7 +13,7 @@ func SaveMessage(Ctx iris.Context){
 	var p model.Message
 	Ctx.ReadJSON(&p)
 	p.Id=bson.NewObjectId()
-	p,gtErr:=MessageUsecase.Save(&p)
+	_,gtErr:=MessageUsecase.SaveMessage(&p)
 	golog.Info(gtErr)
 	if gtErr==nil{
 		Ctx.JSON("success")

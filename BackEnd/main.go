@@ -3,11 +3,10 @@
 package main
 
 import (
-	"AbsharAutomation/config"
+	"HealthCampaign/BackEnd/config"
 	"HealthCampaign/BackEnd/api"
 	"HealthCampaign/BackEnd/repository"
 	"HealthCampaign/BackEnd/usecase"
-	"HealthCampaign/BackEnd/web/controller"
 	_ "github.com/kataras/golog"
 	"github.com/kataras/iris"
 
@@ -21,13 +20,15 @@ import (
 var (
 	db  *mgo.Database
 	err error
-	//userUsecase usecase.UserUsecase
-	tokenUsecase usecase.TokenUsecase
-	personUsecase usecase.PersonUsecase
-	
-	//actionUsecase usecase.ActionUsecase
-	//letterArchiveUsecase usecase.LetterArchiveUsecase
-
+	patientUsecase usecase.PatientUsecase
+	progressUsecase usecase.ProgressUsecase
+	alterationUsecase usecase.AlterationUsecase
+	campaignUsecase usecase.CampaignUsecase
+	diseaseUsecase usecase.DiseaseUsecase
+	groupUsecase usecase.GroupUsecase
+	messageUsecase usecase.MessageUsecase
+	medicalCenterUsecase usecase.MedicalCenterUsecase
+	medicalStaffUsecase usecase.MedicalStaffUsecase
 )
 
 
@@ -80,34 +81,46 @@ func main() {
 
 func InitApp(db *mgo.Database){
 
-	//actionRepository := repository.NewActionRepositoryMongo(db, config.CollectionAction)
-	//actionUsecase = usecase.NewActionUsecase(actionRepository)
+	alterationRepository := repository.NewAlterationRepositoryMongo(db, config.CollectionAlteration)
+	alterationUsecase = usecase.NewAlterationUsecase(alterationRepository)
 
+	campaignRepository := repository.NewCampaignRepositoryMongo(db, config.CollectionCampaign)
+	campaignUsecase = usecase.NewCampaignUsecase(campaignRepository)
 
-	//userRepository := repository.NewUserRepositoryMongo(db, config.CollectionUser) // returns *UserRepositoryMongo
-	//userUsecase = usecase.NewUserUsecase(userRepository)
+	diseaseRepository := repository.NewDiseaseRepositoryMongo(db,config.CollectionDisease)
+	diseaseUsecase = usecase.NewDiseaseUsecase(diseaseRepository)
 
-	//
-	tokenRepository := repository.NewTokenRepositoryMongo(db,config.CollectionToken)
-	tokenUsecase = usecase.NewTokenUsecase(tokenRepository)
+	groupRepository := repository.NewGroupRepositoryMongo(db,config.CollectionGroup)
+	groupUsecase = usecase.NewGroupUsecase(groupRepository)
 
+	medicalCenterRepository := repository.NewMedicalCenterRepositoryMongo(db,config.CollectionMedicalCenter)
+	medicalCenterUsecase = usecase.NewMedicalCenterUsecase(medicalCenterRepository)
 
-	
-	//letterArchiveRepository := repository.NewFlowRepositoryMongo(db,config.CollectionLetterArchive)
-	//letterArchiveUsecase = usecase.NewLetterArchiveUsecase(letterArchiveRepository)
-	//
+	medicalStaffRepository := repository.NewMedicalStaffRepositoryMongo(db,config.CollectionMedicalStaff)
+	medicalStaffUsecase = usecase.NewMedicalStaffUsecase(medicalStaffRepository)
+
+	messageRepository := repository.NewMessageRepositoryMongo(db,config.CollectionMessage)
+	messageUsecase = usecase.NewMessageUsecase(messageRepository)
+
+	patientRepository := repository.NewPatientRepositoryMongo(db,config.CollectionPatient)
+	patientUsecase = usecase.NewPatientUsecase(patientRepository)
+
+	progressRepository := repository.NewProgressRepositoryMongo(db,config.CollectionProgress)
+	progressUsecase = usecase.NewProgressUsecase(progressRepository)
 
 }
 
 
 func InitWeb(){
-	//controller.ActionUsecase = actionUsecase
-	//controller.UserUsecase = userUsecase
-	controller.TokenUsecase = tokenUsecase
-
-	controller.PersonUsecase = personUsecase
-	api.TokenUsecase = tokenUsecase
-	api.PersonUsecase = personUsecase
+	api.AlterationUsecase = alterationUsecase
+	api.CampaignUsecase = campaignUsecase
+	api.DiseaseUsecase = diseaseUsecase
+	api.GroupUsecase = groupUsecase
+	api.MedicalCenterUsecase = medicalCenterUsecase
+	api.MedicalStaffUsecase = medicalStaffUsecase
+	api.MessageUsecase = messageUsecase
+	api.PatientUsecase = patientUsecase
+	api.ProgressUsecase = progressUsecase
 }
 
 func ApiControlller(app *iris.Application){

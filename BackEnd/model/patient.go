@@ -13,6 +13,7 @@ type Patient struct {
 	ProfileImage    string        `bson:"profile_image"`
 	PhoneNumber     string        `bson:"phone_number"`
 	CampaignId      []string      `bson:"campaign_id"`
+	GroupId      	[]string      `bson:"group_id"`
 	UserName 	    string        `db:"userName" bson:"user_name"`
 	Password 	    string        `db:"password" bson:"password"`
 	JoinedAt        time.Time     `bson:"joined_at"`

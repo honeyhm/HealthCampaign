@@ -1,9 +1,8 @@
-/*created by H.MLK*/
 package usecase
 
 import (
-	"authorize/model"
-	"authorize/repository"
+	"HealthCampaign/BackEnd/model"
+	"HealthCampaign/BackEnd/repository"
 	"github.com/kataras/golog"
 )
 
@@ -71,12 +70,12 @@ func (ProgressUsecase *ProgressUsecaseImpl) DeleteByID(id string) error {
 
 
 // find and get all Progresss
-func (ProgressUsecase *ProgressUsecaseImpl) GetAll() (model.Progresss, error) {
+func (ProgressUsecase *ProgressUsecaseImpl) GetAll() (model.Progresses, error) {
 	golog.Info("Enter Get All Progress Usecase :")
-	ersons, err := ProgressUsecase.ProgresstRepository.FindAll()
+	Progresses, err := ProgressUsecase.ProgresstRepository.FindAll()
 	golog.Info("finish !")
 	if err != nil {
 		return nil, err
 	}
-	return ersons, nil
+	return Progresses, nil
 }

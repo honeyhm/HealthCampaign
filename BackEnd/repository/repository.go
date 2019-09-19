@@ -12,7 +12,7 @@ type PatientRepository interface {
 	Delete(string) error
 	FindByID(string)(*model.Patient, error)
 	FindAll()(model.Patients , error)
-	FindByUserPass(string) (*model.Patient ,error)
+	FindByUserPass(string , string) bool
 }
 
 
@@ -22,7 +22,7 @@ type MedicalStaffRepository interface {
 	Delete(string) error
 	FindByID(string)(*model.MedicalStaff, error)
 	FindAll()(model.MedicalStaffs , error)
-	FindByUserPass(string) (*model.MedicalStaff ,error)
+	FindByUserPass(string , string) bool
 }
 
 
@@ -76,3 +76,19 @@ type AlterationRepository interface {
 }
 
 
+type GroupRepository interface {
+	Save(*model.Group) error
+	Update(string, *model.Group) error
+	Delete(string) error
+	FindByID(string) (*model.Group, error)
+	FindAll() (model.Groups, error)
+}
+
+type MessageRepository interface {
+	Save(*model.Message) error
+	Update(string, *model.Message) error
+	Delete(string) error
+	FindByID(string) (*model.Message, error)
+	FindAll() (model.Messages, error)
+
+}

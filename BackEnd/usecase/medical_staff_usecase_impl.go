@@ -2,14 +2,15 @@
 package usecase
 
 import (
-	"authorize/model"
-	"authorize/repository"
+	"HealthCampaign/BackEnd/model"
+	"HealthCampaign/BackEnd/repository"
 	"github.com/kataras/golog"
 )
 
 type MedicalStaffUsecaseImpl struct {
 	MedicalStafftRepository repository.MedicalStaffRepository
 }
+
 
 func NewMedicalStaffUsecase(MedicalStaffRepository repository.MedicalStaffRepository) *MedicalStaffUsecaseImpl {
 	//func NewUserUsecase(userRepository  repository.UserRepository) *UserUsecaseImpl {
@@ -67,6 +68,15 @@ func (MedicalStaffUsecase *MedicalStaffUsecaseImpl) DeleteByID(id string) error 
 		return err
 	}
 	return nil
+}
+
+
+func (MedicalStaffUsecase *MedicalStaffUsecaseImpl) GetByUserPass(u string , p string) (*model.MedicalStaff, error) {
+	MedicalStaff, err := MedicalStaffUsecase.MedicalStafftRepository.FindByUserPass(u , p)
+	if err != nil {
+		return nil, err
+	}
+	return MedicalStaff, nil
 }
 
 
