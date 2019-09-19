@@ -1,16 +1,17 @@
-/*created by H.Mlk*/
-/*last modified 26/4/1398*/
 package config
 
 const (
-	AppName     string = "احراز هویت درب دانشکده مهندسی"
-	AppHost     string = "http://localhost" ///ip migire
-	AppPort     string = "5005"
+	AppName     string = "HealthCamp"
+	AppHost     string = "http://localhost"
+	AppPort     string = "5000"
 	MongoHost   string = "localhost"
-	MongoDbName string = "authorize" // felan
+	MongoDbName string = "HealthCampaign"
 
 	CollectionUser                string = "user"
-	CollectionPerson               string = "person"
-	CollectionToken               string = "token"
-
+	CollectionPatient             string = "patient"
+	CollectionDisease             string = "disease"
+	CollectionCampaign            string = "campaign"
+	CollectionMedicalCenter       string = "medicalCenter"
+	CollectionMedicalStaff        string = "medicalStaff"
+	CollectionCampaignActivity    string = "campaignActivity"
 )

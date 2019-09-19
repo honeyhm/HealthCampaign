@@ -1,4 +1,3 @@
-/*created by H.Mlk*/
 package config
 
 import(

@@ -1,12 +1,16 @@
+
 package model
 
-import (
-	"time"
+import "gopkg.in/mgo.v2/bson"
+import "time"
 
-	"gopkg.in/mgo.v2/bson"
-)
-
-type User struct {
+type Patient struct {
+	Id         bson.ObjectId `bson:"_id"`
+	PatientName       string        `bson:"patientName"`
+	Country        string        `bson:"country"`
+	//StartTime  time.Time     `bson:"start_time"`
+	//FinishTime time.Time     `bson:"finish_time"`
+	FinishDate time.Time     `bson:"finish_date"`
 	Id bson.ObjectId `db:"id" bson:"_id"` //json:"Token"`
 	UserId         string `db:"userId" bson:"user_id" json:"Token"`
 	FirstName      string `db:"firstName" bson:"first_name"`
@@ -18,11 +22,5 @@ type User struct {
 	CreatedAt    time.Time  `bson:"created_at"`
 	UpdatedAt    time.Time  `bson:"updated_at"`
 	UserToken    string     `bson:"user_token"`
-
 }
-
-type Users []User
-
-func (u *User) IsValidPassword(password string) bool {
-	return u.Password == password
-}
+type Patients []Patient
