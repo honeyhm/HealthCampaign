@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed6c6668-de21-4b03-8970-323569ba85be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/medical_center_signin_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/medical_center_signup_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/medical_staff_signup_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/patient_signup_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/model/alteration.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/model/progress.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/alteration_usecase_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/campaign_usecase_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/disease_usecase_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/medical_center_usecase_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/medical_staff_usecase_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/progress_usecase_impl.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/model/campaign.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/campaign.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/model/disease.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/disease.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/model/medical_center.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/medical_center.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/model/medical_staff.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/medical_staff.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/model/patient.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/patient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/person_usecase_impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/usecase/patient_usecase_impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +42,13 @@
         <option value="$PROJECT_DIR$/BackEnd/api/api.go" />
         <option value="$PROJECT_DIR$/BackEnd/api/api_post.go" />
         <option value="$PROJECT_DIR$/BackEnd/main.go" />
-        <option value="$PROJECT_DIR$/BackEnd/model/disease.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/alteration.go" />
-        <option value="$PROJECT_DIR$/BackEnd/model/campaign.go" />
-        <option value="$PROJECT_DIR$/BackEnd/model/patient.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/medical_staff.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/patient.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/campaign.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/disease.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/progress.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/medical_center.go" />
       </list>
     </option>
   </component>
@@ -152,13 +159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/model/disease.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
@@ -166,6 +166,13 @@
           <folding>
             <element signature="e#16#267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/medical_staff.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="16" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -178,22 +185,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/model/patient.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="277">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#16#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/model/campaign.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/model/medical_staff.go">
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/disease.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/progress.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/medical_center.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>

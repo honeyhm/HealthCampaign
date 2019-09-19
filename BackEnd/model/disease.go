@@ -1,7 +1,6 @@
 package model
 
 import "gopkg.in/mgo.v2/bson"
-import "time"
 
 type Disease struct {
 	Id         		  bson.ObjectId `bson:"_id"`

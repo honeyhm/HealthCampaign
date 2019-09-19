@@ -1,17 +1,16 @@
 package model
 
 import "gopkg.in/mgo.v2/bson"
-import "time"
 
-type Disease struct {
-	Id         bson.ObjectId `bson:"_id"`
-	Name       string        `bson:"name"`
-	StudentNum string        `bson:"student_num"`
-	Ssn        string        `bson:"ssn"`
-	Gender        string        `bson:"gender"`
-	//StartTime  time.Time     `bson:"start_time"`
-	//FinishTime time.Time     `bson:"finish_time"`
-	FinishDate time.Time     `bson:"finish_date"`
-	// ActionArray				[]string		`bson:"action_array"`
+type MedicalCenter struct {
+	Id         		bson.ObjectId `bson:"_id"`
+	CenterName      string        `bson:"center_name"`
+	Type        	string        `bson:"type"`
+	Address 		string        `bson:"address"`
+	Gender         	bool   		  `bson:"gender"`
+	Province  		string        `bson:"profile_image"` //ostan
+	City   			string        `bson:"city"`
+	Country 	 	string  	  `bson:"city"`
+
 }
-type Diseases []Disease
+type MedicalCenters []MedicalCenter

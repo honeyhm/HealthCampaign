@@ -13,6 +13,9 @@ type Campaign struct {
 	MemberNumber 		time.Time     `bson:"member_number"`
 	DailyThreshold 		int     	  `bson:"daily_threshold"`
 	FullThreshold 		int    		  `bson:"full_threshold"`
+	Privilege 		    int    		  `bson:"privilege"`   ////Emtiaz
+
 
 }
+
 type Campaigns []Campaign
