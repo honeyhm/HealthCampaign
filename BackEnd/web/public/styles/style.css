@@ -1,0 +1,229 @@
+/*******create by Z.Sattari*************/
+/**********edit by Z.Sattri 10/4/1398****/
+/**********edit by Z.Sattri 12/4/1398****/
+/**********edit by Z.Sattri 14/4/1398*****/
+/**********edit by Z.Sattri 15/4/1398****/
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+}
+.body {
+  background-color: #F8F8F8;
+}
+
+
+.main{
+  background-color: #f8f9fa
+}
+.clear{
+  clear: both;
+}
+/*for login page*/
+.div1{
+  margin: auto;float: none;display: block;margin-top: 9px;padding:80px;box-sizing: border-box;border: 1px solid lightgray;
+  background-color:white;border-radius: 5px;
+
+}
+
+.erja{
+  margin: auto;float: none;display: block;box-sizing: border-box;border: 1px solid lightgray;
+  background-color:white; border-radius: 5px;
+
+}
+
+.div2 {
+  margin: auto;float: none;display: block;
+}
+
+/* for zone page */
+.div3{
+  margin: auto;float: none;display: block;margin-top: 10px;padding:9px;box-sizing: border-box;border: 1px solid lightgray;
+  background-color:white; border-radius: 5px;
+
+}
+
+.center{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+/*for button login*/
+.button1{
+ margin:auto;
+ width: 30%;
+ display: block;
+ float:none;
+ font-weight: bold;
+}
+
+.fleft{
+  float:left;
+}
+
+.fright{
+  float:right;
+}
+
+/*****************for managment************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-right,.main-left {
+  direction: rtl;
+}
+.main-right{
+    float:right;
+}
+.main-left{
+  float: left;
+  /*border: 1px solid lightgray;*/
+  /*background-color:white; border-radius: 5px;*/
+  border-radius:5px; 
+  /*height: 600px;*/
+}
+
+
+.mainm {
+  color: #6a6c6f;
+  background-color: #f1f3f6;
+  margin-top:10px;
+  direction: rtl;
+  text-align: right;
+}
+
+.container {
+  max-width: 300px;
+  margin-right:0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  
+}
+
+
+.nav{
+    display: inline-block;
+}
+.nav li {
+  border-bottom: 1px solid #eee;
+}
+
+.nav li a {
+  font-size: 14px;
+}
+
+#accordionMenu {
+  max-width: 300px;
+}
+
+.panel-body {
+  padding: 0;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e4e5e7;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\e113";
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\e114";
+}
+/**********************************************************************/
+h6{
+direction: rtl;
+text-align: right;
+margin-left: 20px;
+}
+/*************sign******************************/
+#nextbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#previousbutton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+.np {
+  background-color : #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+}
+
+.right{
+direction: rtl;
+text-align: right;
+}
+/******************************/
+.file-field.medium .file-path-wrapper {
+  height: 3rem; }
+  .file-field.medium .file-path-wrapper .file-path {
+  height: 2.8rem; }
+  
+  .file-field.big-2 .file-path-wrapper {
+  height: 3.7rem; }
+  .file-field.big-2 .file-path-wrapper .file-path {
+  height: 3.5rem; }
+.pt-3-half {
+  padding-top: 1.4rem;
+}
+/*******************************************************/
