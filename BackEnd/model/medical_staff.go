@@ -3,15 +3,17 @@ package model
 import "gopkg.in/mgo.v2/bson"
 import "time"
 
-type Disease struct {
-	Id         bson.ObjectId `bson:"_id"`
-	Name       string        `bson:"name"`
-	StudentNum string        `bson:"student_num"`
-	Ssn        string        `bson:"ssn"`
-	Gender        string        `bson:"gender"`
-	//StartTime  time.Time     `bson:"start_time"`
-	//FinishTime time.Time     `bson:"finish_time"`
-	FinishDate time.Time     `bson:"finish_date"`
-	// ActionArray				[]string		`bson:"action_array"`
+type MedicalStaff struct {
+	Id         		bson.ObjectId `bson:"_id"`
+	StaffName       string        `bson:"staff_name"`
+	Subject        string        `bson:"subject"`
+	ExpertKnowledge        string        `bson:"expert_knowledge"`
+	Gender         bool   `bson:"gender"`
+	ProfileImage  string `bson:"profile_image"`
+	PhoneNumber   string `bson:"phone_number"`
+	UserName 	 string `db:"userName" bson:"user_name"`
+	Password 	 string `db:"password" bson:"password"`
+	JoinedAt     time.Time  `bson:"joined_at"`
+	MedicalCenterId     string  `bson:"medical_center_id"`
 }
-type Diseases []Disease
+type MedicalStaffs []MedicalStaff
