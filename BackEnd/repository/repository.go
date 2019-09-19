@@ -1,40 +1,78 @@
 package repository
 
 import (
-	"authorize/model"
+	"HealthCampaign/BackEnd/model"
 	_"time"
 )
 
 
-type PersonRepository interface {
-	Save(*model.Person) error
-	Update(string,*model.Person) error
+type PatientRepository interface {
+	Save(*model.Patient) error
+	Update(string,*model.Patient) error
 	Delete(string) error
-	FindByID(string)(*model.Person, error)
-	FindAll()(model.Persons , error)
-	FindByNum(string) (*model.Person ,error)
+	FindByID(string)(*model.Patient, error)
+	FindAll()(model.Patients , error)
+	FindByUserPass(string) (*model.Patient ,error)
 }
 
 
-//Token Repository
-type TokenRepository interface {
-	Save(*model.Token) error
-	Update(string, *model.Token) error
+type MedicalStaffRepository interface {
+	Save(*model.MedicalStaff) error
+	Update(string,*model.MedicalStaff) error
 	Delete(string) error
-	FindByID(string) (*model.Token, error)
-	FindAll() (model.Tokens, error)
+	FindByID(string)(*model.MedicalStaff, error)
+	FindAll()(model.MedicalStaffs , error)
+	FindByUserPass(string) (*model.MedicalStaff ,error)
+}
+
+
+
+type CampaignRepository interface {
+	Save(*model.Campaign) error
+	Update(string, *model.Campaign) error
+	Delete(string) error
+	FindByID(string) (*model.Campaign, error)
+	FindAll() (model.Campaigns, error)
 
 }
 
-//User Repository
-type UserRepository interface {
-	Save(*model.User) error
-	Update(string, *model.User) error
+
+type DiseaseRepository interface {
+	Save(*model.Disease) error
+	Update(string, *model.Disease) error
 	Delete(string) error
-	FindByID(string) (*model.User, error)
-	FindByToken(string) (*model.User, error)
-	FindByName(string) (*model.User, error)
-	FindByUserName(string) (*model.User, error)
-	FindAll() (model.Users, error)
-	FindByPozId( string ) (*model.User, error)
+	FindByID(string) (*model.Disease, error)
+	FindAll() (model.Diseases, error)
+
 }
+
+type MedicalCenterRepository interface {
+	Save(*model.MedicalCenter) error
+	Update(string, *model.MedicalCenter) error
+	Delete(string) error
+	FindByID(string) (*model.MedicalCenter, error)
+	FindAll() (model.MedicalCenters, error)
+
+}
+
+
+type ProgressRepository interface {
+	Save(*model.Progress) error
+	Update(string, *model.Progress) error
+	Delete(string) error
+	FindByID(string) (*model.Progress, error)
+	FindAll() (model.Progresses, error)
+
+}
+
+
+type AlterationRepository interface {
+	Save(*model.Alteration) error
+	Update(string, *model.Alteration) error
+	Delete(string) error
+	FindByID(string) (*model.Alteration, error)
+	FindAll() (model.Alterations, error)
+
+}
+
+
