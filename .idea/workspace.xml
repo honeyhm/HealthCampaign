@@ -2,935 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed6c6668-de21-4b03-8970-323569ba85be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/HealthCampaign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/v2.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/api_get.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/api_post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/config/mongo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/config/session.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/function/date_increment_function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/function/random_function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/function/user_exist_function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/function/validation_function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/middleware/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/model/person.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/model/token.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/repository/person_repository_mongo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/repository/repository.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/repository/token_repository_mongo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/repository/user_repository_mongo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/person_usecase_impl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/token_usecase_impl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/usecase/user_usecase_impl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/controller/controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/controller/search_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/controller/token_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/controller/user_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/a1630743515.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/a2787571582.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/code141143870.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/code513067126.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/code642641798.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/code660218986.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/code708363564.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/ssn243050177.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/ssn374659763.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/ssn467468955.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/ssn551092613.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/ssn846396931.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/ssn995130743.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/sss726735262.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/attachments/tt828897915.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/images/img_avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/images/ssn058454543.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/images/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/js/jquery-3.2.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/CHANGES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/adapters/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/build-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/contents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/copyformatting/cursors/cursor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/copyformatting/styles/copyformatting.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/div/dialogs/div.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/find/dialogs/find.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/flash/dialogs/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/flash/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/radio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/textarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/dialogs/textfield.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/forms/images/hiddenfield.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/iframe/dialogs/iframe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/iframe/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/liststyle/dialogs/liststyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/dialogs/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_blockquote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_div.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_h1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_h2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_h3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_h4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_h5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_h6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_p.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/showblocks/images/block_pre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/dialogs/smiley.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/angel_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/angel_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/angry_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/angry_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/broken_heart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/broken_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/confused_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/confused_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/cry_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/cry_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/devil_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/devil_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/embaressed_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/embarrassed_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/envelope.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/heart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/kiss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/lightbulb.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/lightbulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/omg_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/omg_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/regular_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/regular_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/sad_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/sad_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/shades_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/shades_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/teeth_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/teeth_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/thumbs_down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/thumbs_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/thumbs_up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/thumbs_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/tongue_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/tongue_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/tounge_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/wink_smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/smiley/images/wink_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/templates/dialogs/templates.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/templates/dialogs/templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/templates/templates/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/templates/templates/images/template1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/templates/templates/images/template2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/templates/templates/images/template3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/css/samples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/img/github-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/img/header-separator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/img/navigation-tip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/js/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/js/sf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/api.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/appendto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/assets/inlineall/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/assets/posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/assets/uilanguages/languages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/datafiltering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/divreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/inlineall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/replacebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/sample_posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/tabindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/uicolor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/uilanguages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/font/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/dialog_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/editor_gecko.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/editor_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/editor_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/images/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/node_modules/ckeditor/vendor/promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/signs/sign340592551.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/signs/sign541879054.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/signs/sign837753155.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/signs/sign839458731.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.babelrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.github/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.stylelintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/breakpoints.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/browser-bugs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/browser-features.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/colors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/examples.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/grays.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/nav.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/theme-colors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_data/translations.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/ads.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/callout-danger-async-methods.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/callout-info-mediaqueries-breakpoints.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/callout-warning-color-assistive-technologies.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/docs-navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/docs-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/favicons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/bootstrap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/import.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/lightning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/slack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_includes/social.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_layouts/docs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_layouts/examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_layouts/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_layouts/redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_layouts/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_plugins/bugify.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_plugins/callout.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_plugins/example.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/_plugins/markdown-block.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/brand/bootstrap-outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/brand/bootstrap-punchout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/brand/bootstrap-social-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/brand/bootstrap-social.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/brand/bootstrap-solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/css/docs.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/css/docs.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/bootstrap-stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/bootstrap-themes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/mstile-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/mstile-310x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/mstile-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/mstile-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/img/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/docs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/src/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/src/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/src/pwa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/vendor/anchor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/vendor/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/vendor/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/js/vendor/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_ads.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_algolia.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_anchor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_brand.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_browser-bugs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_callouts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_clipboard-js.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_component-examples.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_examples.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_masthead.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_skiplink.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_syntax.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/assets/scss/docs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/.htmllintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/change-version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/gcp-key.json.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/generate-sri.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/lint-vars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/sauce_browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/saucelabs-unit-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/ship.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/upload-preview.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/vnu-jar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/workbox.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/build/workbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/about/brand.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/about/license.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/about/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/about/translations.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/browser-bugs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/alerts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/badge.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/breadcrumb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/button-group.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/buttons.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/card.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/carousel.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/collapse.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/dropdowns.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/forms.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/input-group.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/jumbotron.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/list-group.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/modal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/navbar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/navs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/pagination.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/popovers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/progress.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/scrollspy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/components/tooltips.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/content/code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/content/figures.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/content/images.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/content/reboot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/content/tables.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/content/typography.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/album/album.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/album/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/blog/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/carousel/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/carousel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/checkout/form-validation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/checkout/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/cover/cover.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/cover/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/dashboard/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/dashboard/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/floating-labels/floating-labels.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/floating-labels/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/grid/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/grid/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/jumbotron/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/jumbotron/jumbotron.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbar-bottom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbar-fixed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbar-fixed/navbar-top-fixed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbar-static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbar-static/navbar-top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbars/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/navbars/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/offcanvas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/offcanvas/offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/offcanvas/offcanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/pricing/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/pricing/pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/product/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/product/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/album.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/blog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/carousel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/checkout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/floating-labels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/jumbotron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/navbar-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/navbar-fixed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/navbar-static.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/navbars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/offcanvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/sign-in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/starter-template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/sticky-footer-navbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/screenshots/sticky-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/sign-in/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/sign-in/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/starter-template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/starter-template/starter-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/sticky-footer-navbar/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/sticky-footer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/sticky-footer/sticky-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/tooltip-viewport/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/tooltip-viewport/tooltip-viewport.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/examples/tooltip-viewport/tooltip-viewport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/extend/approach.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/extend/icons.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/extend/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/accessibility.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/best-practices.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/browsers-devices.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/build-tools.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/contents.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/download.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/javascript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/theming.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/getting-started/webpack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/layout/grid.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/layout/media-object.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/layout/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/layout/utilities-for-layout.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/migration.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/borders.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/clearfix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/close-icon.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/colors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/display.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/embed.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/flex.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/float.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/image-replacement.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/position.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/screenreaders.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/sizing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/spacing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/text.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/vertical-align.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/docs/4.0/utilities/visibility.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/alert.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/button.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/carousel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/collapse.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/dropdown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/modal.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/popover.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/scrollspy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/tab.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/tooltip.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/dist/util.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/src/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/unit/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/vendor/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/vendor/qunit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/vendor/qunit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/collapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/popover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/scrollspy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/js/tests/visual/tooltip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/nuget/MyGet.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/nuget/bootstrap.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/nuget/bootstrap.sass.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/sache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_navbar-align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/scss/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap-4.0.0/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/public/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/view/adduser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/view/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/view/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/web/view/notfound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/model/disease.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/disease.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/model/patient.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/patient.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -939,48 +13,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
+        <entry file="file://$PROJECT_DIR$/BackEnd/model/patient.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+              <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BackEnd/model/medical_staff.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackEnd/api/api.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackEnd/api/api_get.go">
+        <entry file="file://$PROJECT_DIR$/BackEnd/model/campaign.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272" />
+            <state relative-caret-position="272">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BackEnd/api/api_post.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackEnd/model/alteration.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="c:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BackEnd" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BackEnd/main.go" />
+        <option value="$PROJECT_DIR$/BackEnd/api/api_get.go" />
+        <option value="$PROJECT_DIR$/BackEnd/api/api.go" />
         <option value="$PROJECT_DIR$/BackEnd/api/api_post.go" />
+        <option value="$PROJECT_DIR$/BackEnd/main.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/disease.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/alteration.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/campaign.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/patient.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/medical_staff.go" />
       </list>
     </option>
   </component>
@@ -1011,7 +105,7 @@
               <item name="HealthCampaign" type="b2602c69:ProjectViewProjectNode" />
               <item name="HealthCampaign" type="462c0819:PsiDirectoryNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1021,13 +115,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BackEnd/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -1052,14 +147,9 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1067,10 +157,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1081,33 +176,79 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BackEnd/api/api_get.go</url>
-          <line>27</line>
-          <properties />
+          <line>26</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
+    <entry file="file://$PROJECT_DIR$/BackEnd/api/api_post.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/api/api.go">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="e#13#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/api/api_get.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272" />
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/api/api_post.go">
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/disease.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="187">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#16#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/alteration.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/patient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/campaign.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/medical_staff.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
         </state>
       </provider>
     </entry>
