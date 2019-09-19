@@ -44,7 +44,7 @@ type PatientUsecase interface {
 	SavePatient(user *model.Patient) (*model.Patient, error)
 	UpdatePatient(string, *model.Patient) (*model.Patient, error)
 	GetByID(string) (*model.Patient, error)
-	GetByUserPass( string ,  string) (*model.Patient, error)
+	GetByUserPass( string ,  string) bool
 	GetAll() (model.Patients, error)
 }
 
@@ -52,7 +52,7 @@ type MedicalStaffUsecase interface {
 	SaveMedicalStaff(user *model.MedicalStaff) (*model.MedicalStaff, error)
 	UpdateMedicalStaff(string, *model.MedicalStaff) (*model.MedicalStaff, error)
 	GetByID(string) (*model.MedicalStaff, error)
-	GetByUserPass( string ,  string) (*model.MedicalStaff, error)
+	GetByUserPass( string ,  string) bool
 	GetAll() (model.MedicalStaffs, error)
 }
 

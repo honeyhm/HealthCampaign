@@ -11,7 +11,7 @@ func MedCenterSignup(Ctx iris.Context){
 	var p model.MedicalCenter
 	Ctx.ReadJSON(&p)
 	p.Id=bson.NewObjectId()
-	_,svErr:=MedicalCenterUsecase.Save(&p)
+	_,svErr:=MedicalCenterUsecase.SaveMedicalCenter(&p)
 	golog.Info(svErr)
 	Ctx.JSON("success")
 }
