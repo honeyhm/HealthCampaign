@@ -33,10 +33,11 @@ var SearchUsecase usecase.SearchUsecase
 
 var Sess = sessions.New(sessions.Config{Cookie: config.CookieNameForSessionID, AllowReclaim: true})
 
-func TagTokenize( messageText string, referId string ) error {
+func TagTokenize( messageText string) (*model.Hashtag , error) {
 
 	Num := strings.Count(messageText, "#")
 	var err error
+	var hashtag model.Hashtag
 	for i := 1; i < Num+1; i++ {
 		newObjID := bson.NewObjectId()
 		i1 := strings.IndexAny(messageText, "#")
@@ -52,53 +53,19 @@ func TagTokenize( messageText string, referId string ) error {
 		}
 	}
 	if err != nil {
-		return err
+		return nil ,err
 	}
-	return nil
+	return &hashtag , nil
 }
 
 
 
 
 
-func SaveSearch() error {
-	subject := c.Ctx.FormValue("subject")
-	content := c.Ctx.FormValue("content-editor")
-	LetterId := c.Ctx.FormValue("AI")
-	attachment:=c.Ctx.FormValue("attachment")
-	golog.Info("attach")
-	golog.Info(attachment)
-	dt := time.Now() //.Format("01-02-2006")
-	lttrObjID := bson.ObjectIdHex(LetterId)
-	var lttr model.Letter
-	lttr.Id = lttrObjID
-	lttr.LetterSubject = subject
-	lttr.LetterText = content
-	lttr.CreatedAt = dt
-	/////////////////tokeniz text to find field\\\\\\\\\\\
-	tokenErr:= LetterTokenize(content , LetterId)
-	if tokenErr!= nil{
-		return mvc.Response{
-			Path: "addletter",//ارور خوردیم حالا باید بریم یه جایی که نمیدونم فعلا
-		}
-	}
-	////////////////////////////////end tokenize\\\\\\\\\\\\\\\\\
-	_ , err := LetterUsecase.SaveLetter(&lttr)
-	golog.Info(err)
-	if err == nil {
-		//tokenize
-		golog.Info(attachment);
-		if attachment=="1" {
-			return mvc.Response{
-				Path: "/letter/addattachment?id=" + LetterId,
-			}
-		} else {
-			return mvc.Response{
-				Path: "/letter/showletter?id=" + LetterId,
-			}
-		}
-	}
-	return mvc.Response{
-		Path: "/letter/addletter",
-	}
-}
+//func SaveSearch(ReferId string ,ReferState bool) error {
+//	newObjID := bson.NewObjectId()
+//	newObjID2 := bson.NewObjectId()
+//	search := model.Search{Id:newObjID , HashTagId:newObjID2.Hex() ,ReferId:ReferId ,ReferState:ReferState }
+//	/////////////////tokeniz text to find field\\\\\\\\\\\
+//	tokenErr:= LetterTokenize(content , LetterId)
+//
