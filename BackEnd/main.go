@@ -130,5 +130,6 @@ func ApiControlller(app *iris.Application){
 	app.Get("/all-group",api.AllGroup)
 	app.Get("/campaign",api.GetByCampaignId)
 	app.Get("/group",api.GetByGroupId)
+	app.Get("/get-camp-patient",api.AllCampaignByPatientId)
 	app.Post("/save-message",api.SaveMessage)
 }

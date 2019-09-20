@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed6c6668-de21-4b03-8970-323569ba85be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BackEnd/modelview/camp_vm.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/model/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/message.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/repository/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/repository/repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/middleware/test" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/modelview/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/model/campaign.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/campaign.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
