@@ -53,6 +53,22 @@ func (r *SearchRepositoryMongo) FindByID(id string) (*model.Search, error) {
 
 
 
+
+func (r *SearchRepositoryMongo) FindByTagId(id string) (model.Searches, error) {
+	var Searches model.Searches
+	err := r.db.C(r.collection).Find(bson.M{"hashtag_id": id}).All(&Searches)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return Searches, nil
+}
+
+
+
+
+
 func (r *SearchRepositoryMongo) FindAll() (model.Searches, error) {
 	var Searches model.Searches
 

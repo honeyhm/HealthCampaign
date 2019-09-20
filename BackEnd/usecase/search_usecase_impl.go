@@ -59,6 +59,15 @@ func (SearchUsecase *SearchUsecaseImpl) DeleteByID(id string) error {
 }
 
 
+func (SearchUsecase *SearchUsecaseImpl) GetByTagId(id string) (model.Searches, error) {
+	Searches, err := SearchUsecase.SearchtRepository.FindByTagId(id)
+	if err != nil {
+		return nil, err
+	}
+	return Searches, nil
+}
+
+
 // find and get all Searchs
 func (SearchUsecase *SearchUsecaseImpl) GetAll() (model.Searches, error) {
 	golog.Info("Enter Get All Search Usecase :")

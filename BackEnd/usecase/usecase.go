@@ -85,12 +85,15 @@ type HashtagUsecase interface {
 	SaveHashtag(user *model.Hashtag) (*model.Hashtag, error)
 	UpdateHashtag(string, *model.Hashtag) (*model.Hashtag, error)
 	GetByID(string) (*model.Hashtag, error)
+	GetByName(string) (*model.Hashtag, error)
 	GetAll() (model.Hashtags, error)
 }
+
 
 type SearchUsecase interface {
 	SaveSearch(user *model.Search) (*model.Search, error)
 	UpdateSearch(string, *model.Search) (*model.Search, error)
 	GetByID(string) (*model.Search, error)
+	GetByTagId( string) (model.Searches, error)
 	GetAll() (model.Searches, error)
 }

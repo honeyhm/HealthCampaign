@@ -99,6 +99,7 @@ type HashtagRepository interface {
 	Update(string, *model.Hashtag) error
 	Delete(string) error
 	FindByID(string) (*model.Hashtag, error)
+	FindByName( string) (*model.Hashtag, error)
 	FindAll() (model.Hashtags, error)
 }
 
@@ -109,5 +110,6 @@ type SearchRepository interface {
 	Update(string, *model.Search) error
 	Delete(string) error
 	FindByID(string) (*model.Search, error)
+	FindByTagId( string) (model.Searches, error)
 	FindAll() (model.Searches, error)
 }

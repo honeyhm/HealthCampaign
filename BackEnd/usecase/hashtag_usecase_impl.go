@@ -50,6 +50,16 @@ func (HashtagUsecase *HashtagUsecaseImpl) GetByID(id string) (*model.Hashtag, er
 }
 
 
+func (HashtagUsecase *HashtagUsecaseImpl) GetByName(n string) (*model.Hashtag, error) {
+	Hashtag, err := HashtagUsecase.HashtagtRepository.FindByName(n)
+	if err != nil {
+		return nil, err
+	}
+	return Hashtag, nil
+}
+
+
+
 func (HashtagUsecase *HashtagUsecaseImpl) DeleteByID(id string) error {
 	err :=HashtagUsecase.HashtagtRepository.Delete(id)
 	if err != nil {

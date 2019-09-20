@@ -52,6 +52,18 @@ func (r *HashtagRepositoryMongo) FindByID(id string) (*model.Hashtag, error) {
 }
 
 
+func (r *HashtagRepositoryMongo) FindByName(n string) (*model.Hashtag, error) {
+	var Hashtag model.Hashtag
+	err := r.db.C(r.collection).Find(bson.M{"tag_name": n}).One(&Hashtag)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &Hashtag, nil
+}
+
+
 
 func (r *HashtagRepositoryMongo) FindAll() (model.Hashtags, error) {
 	var Hashtags model.Hashtags
