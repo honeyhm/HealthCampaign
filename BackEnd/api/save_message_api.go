@@ -15,6 +15,10 @@ func SaveMessage(Ctx iris.Context){
 	p.Id=bson.NewObjectId()
 	_,gtErr:=MessageUsecase.SaveMessage(&p)
 	golog.Info(gtErr)
+	hashtag , _ :=TagTokenize(p.MessageText)
+	s := model.Search{ReferState :true , ReferId :p.Id.Hex() , HashTagId:hashtag.Id.Hex() , Id:bson.NewObjectId()}
+	_ , gtSearchErr :=SearchUsecase.SaveSearch(&s)
+	golog.Info(gtSearchErr)
 	if gtErr==nil{
 		Ctx.JSON("success")
 		return
