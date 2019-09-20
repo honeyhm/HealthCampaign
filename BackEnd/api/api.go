@@ -1,21 +1,19 @@
 package api
 
 import (
-	"HealthCampaign/BackEnd/model"
 	"HealthCampaign/BackEnd/config"
+	"HealthCampaign/BackEnd/model"
 	"HealthCampaign/BackEnd/usecase"
 	"github.com/kataras/golog"
-	"github.com/kataras/iris/mvc"
 	"gopkg.in/mgo.v2/bson"
 	"strings"
-	_"strings"
-	"time"
-	_"unicode"
+	_ "strings"
+	_ "unicode"
 
-	_"github.com/kataras/golog"
+	_ "github.com/kataras/golog"
 	_ "github.com/kataras/iris/mvc"
 	"github.com/kataras/iris/sessions"
-	_"gopkg.in/mgo.v2/bson"
+	_ "gopkg.in/mgo.v2/bson"
 )
 
 var AlterationUsecase usecase.AlterationUsecase
@@ -68,4 +66,4 @@ func TagTokenize( messageText string) (*model.Hashtag , error) {
 //	search := model.Search{Id:newObjID , HashTagId:newObjID2.Hex() ,ReferId:ReferId ,ReferState:ReferState }
 //	/////////////////tokeniz text to find field\\\\\\\\\\\
 //	tokenErr:= LetterTokenize(content , LetterId)
-//
+//go
