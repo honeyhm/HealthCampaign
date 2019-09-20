@@ -17,4 +17,6 @@ const (
 	CollectionMessage             string = "message"
 	CollectionMedicalCenter       string = "medicalCenter"
 	CollectionMedicalStaff        string = "medicalStaff"
+	CollectionHashtag        	  string = "hashtag"
+	CollectionSearch              string = "search"
 )
