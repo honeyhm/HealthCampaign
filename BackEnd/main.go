@@ -38,8 +38,8 @@ func main() {
 
 	app.Logger().SetLevel("debug")
 
-	//app.StaticWeb("/public", "./web/public")
-	app.HandleDir("/public", "./web/public")
+	app.StaticWeb("/public", "./web/public")
+	//app.HandleDir("/public", "./web/public")
 
 	db, err := config.GetMongoDB()
 
@@ -125,6 +125,10 @@ func InitWeb(){
 }
 
 func ApiControlller(app *iris.Application){
-	//app.Get("/userget",api.GetStudent)
-	//app.Post("/t",api.PostStudent)
+	app.Get("/all-campaign",api.AllCampaign)
+	app.Get("/all-message",api.AllMessage)
+	app.Get("/all-group",api.AllGroup)
+	app.Get("/campaign",api.GetByCampaignId)
+	app.Get("/group",api.GetByGroupId)
+	app.Post("/save-message",api.SaveMessage)
 }

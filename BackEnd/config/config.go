@@ -3,7 +3,7 @@ package config
 const (
 	AppName     string = "HealthCamp"
 	AppHost     string = "http://localhost"
-	AppPort     string = "5000"
+	AppPort     string = "5050"
 	MongoHost   string = "localhost"
 	MongoDbName string = "HealthCampaign"
 

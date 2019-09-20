@@ -7,7 +7,7 @@ type Group struct {
 	GroupName       string        `bson:"group_name"`
 	GroupImage      string        `bson:"group_image"`
 	MedicalStaffId  []string      `bson:"medical_staff_id"`
-	GroupId      	[]string      `bson:"group_id"`
+	CampaignId      []string      `bson:"campaign_id"`
 	Creator 	    string        `bson:"creator"`
 	MemberNumber 	int        	  `bson:"member_number"`
 }

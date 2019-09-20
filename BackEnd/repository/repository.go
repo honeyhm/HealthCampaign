@@ -90,5 +90,5 @@ type MessageRepository interface {
 	Delete(string) error
 	FindByID(string) (*model.Message, error)
 	FindAll() (model.Messages, error)
-
+	FindAllByGroupId(string) (model.Messages, error)
 }

@@ -3,64 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6c6668-de21-4b03-8970-323569ba85be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/model/patient.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/patient.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/token_usecase_impl.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/user_usecase_impl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/model/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/repository/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/repository/repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackEnd/model/patient.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding>
-                <element signature="e#16#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackEnd/api/medical_staff_signup_api.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <element signature="e#13#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
-              <folding>
-                <element signature="e#16#326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackEnd/config/config.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,8 +27,6 @@
       <find>Patient</find>
       <find>Staff</find>
       <find>MedicalCenter</find>
-      <find>group</find>
-      <find>Progress</find>
     </findStrings>
     <replaceStrings>
       <replace>MedicalStaff</replace>
@@ -85,8 +35,6 @@
       <replace>Disease</replace>
       <replace>Campaign</replace>
       <replace>Alteration</replace>
-      <replace>Group</replace>
-      <replace>Message</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="c:\Go" />
@@ -99,40 +47,27 @@
         <option value="$PROJECT_DIR$/BackEnd/api/api_get.go" />
         <option value="$PROJECT_DIR$/BackEnd/api/api.go" />
         <option value="$PROJECT_DIR$/BackEnd/api/api_post.go" />
+        <option value="$PROJECT_DIR$/BackEnd/main.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/alteration.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/medical_staff.go" />
+        <option value="$PROJECT_DIR$/BackEnd/model/patient.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/campaign.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/disease.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/progress.go" />
         <option value="$PROJECT_DIR$/BackEnd/model/medical_center.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/user_reposirtory_mongo.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/patient_repository_mongo.go" />
+        <option value="$PROJECT_DIR$/BackEnd/repository/medical_staff_repository_mongo.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/medical_center_repository_mongo.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/progress_repository_mongo.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/disease_repository_mongo.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/campaign_repository_mongo.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/alteration_repository_mongo.go" />
-        <option value="$PROJECT_DIR$/BackEnd/model/patient.go" />
-        <option value="$PROJECT_DIR$/BackEnd/model/group.go" />
-        <option value="$PROJECT_DIR$/BackEnd/model/message.go" />
-        <option value="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" />
-        <option value="$PROJECT_DIR$/BackEnd/repository/group_repository_mongo.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/campaign_usecase_impl.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/progress_usecase_impl.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/group_usecase_impl.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/message_repository_impl.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/patient_usecase_impl.go" />
         <option value="$PROJECT_DIR$/BackEnd/repository/repository.go" />
-        <option value="$PROJECT_DIR$/BackEnd/repository/medical_staff_repository_mongo.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/medical_staff_usecase_impl.go" />
-        <option value="$PROJECT_DIR$/BackEnd/usecase/usecase.go" />
-        <option value="$PROJECT_DIR$/BackEnd/api/medical_staff_signup_api.go" />
-        <option value="$PROJECT_DIR$/BackEnd/config/config.go" />
-        <option value="$PROJECT_DIR$/BackEnd/main.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -143,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,27 +85,11 @@
               <item name="HealthCampaign" type="b2602c69:ProjectViewProjectNode" />
               <item name="HealthCampaign" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HealthCampaign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthCampaign" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthCampaign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthCampaign" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthCampaign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthCampaign" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,10 +122,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,7 +138,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,7 +154,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BackEnd/api/api_get.go</url>
-          <line>26</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -267,6 +185,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#16#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/model/progress.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -288,6 +216,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/campaign.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/model/medical_center.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -304,7 +239,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/repository/token_repository_mongo.go" />
     <entry file="file://$PROJECT_DIR$/BackEnd/repository/user_reposirtory_mongo.go" />
+    <entry file="file://$PROJECT_DIR$/BackEnd/model/patient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/repository/user_repository_mongo.go" />
+    <entry file="file://$PROJECT_DIR$/BackEnd/repository/patient_repository_mongo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-end-line="80" />
+          <folding>
+            <element signature="e#21#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/repository/medical_staff_repository_mongo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#21#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/repository/medical_center_repository_mongo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -315,9 +280,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/repository/progress_repository_mongo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="e#21#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/repository/disease_repository_mongo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#21#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/repository/campaign_repository_mongo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#21#115#0" expanded="true" />
@@ -335,194 +320,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/model/campaign.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/model/group.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" lean-forward="true" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/model/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/repository/progress_repository_mongo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="44" lean-forward="true" selection-end-line="67" />
-          <folding>
-            <element signature="e#21#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          <folding>
-            <element signature="e#21#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/repository/group_repository_mongo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#21#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/repository/campaign_repository_mongo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#21#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/campaign_usecase_impl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="e#38#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/group_usecase_impl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="e#17#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/progress_usecase_impl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="e#17#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/message_repository_impl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-745">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#17#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/repository/repository.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/repository/patient_repository_mongo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/repository/medical_staff_repository_mongo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="223">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
           <folding>
-            <element signature="e#21#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/usecase.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding>
-            <element signature="e#18#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/patient_usecase_impl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <element signature="e#17#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/usecase/medical_staff_usecase_impl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-          <folding>
-            <element signature="e#38#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/api/medical_staff_signup_api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#13#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/model/patient.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#16#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
-          <folding>
-            <element signature="e#16#326#0" expanded="true" />
+            <element signature="e#20#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

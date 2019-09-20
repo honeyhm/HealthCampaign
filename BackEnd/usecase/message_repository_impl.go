@@ -79,3 +79,12 @@ func (MessageUsecase *MessageUsecaseImpl) GetAll() (model.Messages, error) {
 	}
 	return Messages, nil
 }
+
+func (MessageUsecase *MessageUsecaseImpl) GetAllByGroupId(id string) (model.Messages, error) {
+	Messages, err := MessageUsecase.MessageRepository.FindAllByGroupId(id)
+	golog.Info("finish !")
+	if err != nil {
+		return nil, err
+	}
+	return Messages, nil
+}
