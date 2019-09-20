@@ -9,6 +9,7 @@ type Group struct {
 	MedicalStaffId  []string      `bson:"medical_staff_id"`
 	CampaignId      []string      `bson:"campaign_id"`
 	Creator 	    string        `bson:"creator"`
+	Description		string		  `bson:"description"`
 	MemberNumber 	int        	  `bson:"member_number"`
 }
 type Groups []Group
