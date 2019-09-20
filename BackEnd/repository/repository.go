@@ -92,3 +92,22 @@ type MessageRepository interface {
 	FindAll() (model.Messages, error)
 	FindAllByGroupId(string) (model.Messages, error)
 }
+
+
+type HashtagRepository interface {
+	Save(*model.Hashtag) error
+	Update(string, *model.Hashtag) error
+	Delete(string) error
+	FindByID(string) (*model.Hashtag, error)
+	FindAll() (model.Hashtags, error)
+}
+
+
+
+type SearchRepository interface {
+	Save(*model.Search) error
+	Update(string, *model.Search) error
+	Delete(string) error
+	FindByID(string) (*model.Search, error)
+	FindAll() (model.Searches, error)
+}

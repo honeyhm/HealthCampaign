@@ -63,6 +63,7 @@ func (ProgressUsecase *ProgressUsecaseImpl) GetByID(id string) (*model.Progress,
 func (ProgressUsecase *ProgressUsecaseImpl) DeleteByID(id string) error {
 	err :=ProgressUsecase.ProgresstRepository.Delete(id)
 	if err != nil {
+		golog.Info("err :")
 		return err
 	}
 	return nil

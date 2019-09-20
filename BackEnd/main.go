@@ -29,6 +29,8 @@ var (
 	messageUsecase usecase.MessageUsecase
 	medicalCenterUsecase usecase.MedicalCenterUsecase
 	medicalStaffUsecase usecase.MedicalStaffUsecase
+	hashtagUsecase usecase.HashtagUsecase
+	searchUsecase usecase.SearchUsecase
 )
 
 
@@ -109,6 +111,13 @@ func InitApp(db *mgo.Database){
 	progressRepository := repository.NewProgressRepositoryMongo(db,config.CollectionProgress)
 	progressUsecase = usecase.NewProgressUsecase(progressRepository)
 
+
+	hashtagRepository := repository.NewHashtagRepositoryMongo(db,config.CollectionHashtag)
+	hashtagUsecase = usecase.NewHashtagUsecase(hashtagRepository)
+
+	searchRepository := repository.NewSearchRepositoryMongo(db,config.CollectionSearch)
+	searchUsecase = usecase.NewSearchUsecase(searchRepository)
+
 }
 
 
@@ -122,6 +131,8 @@ func InitWeb(){
 	api.MessageUsecase = messageUsecase
 	api.PatientUsecase = patientUsecase
 	api.ProgressUsecase = progressUsecase
+	api.HashtagUsecase = hashtagUsecase
+	api.SearchUsecase = searchUsecase
 }
 
 func ApiControlller(app *iris.Application){

@@ -79,3 +79,18 @@ type MessageUsecase interface {
 	GetAll() (model.Messages, error)
 	GetAllByGroupId(string) (model.Messages, error)
 }
+
+
+type HashtagUsecase interface {
+	SaveHashtag(user *model.Hashtag) (*model.Hashtag, error)
+	UpdateHashtag(string, *model.Hashtag) (*model.Hashtag, error)
+	GetByID(string) (*model.Hashtag, error)
+	GetAll() (model.Hashtags, error)
+}
+
+type SearchUsecase interface {
+	SaveSearch(user *model.Search) (*model.Search, error)
+	UpdateSearch(string, *model.Search) (*model.Search, error)
+	GetByID(string) (*model.Search, error)
+	GetAll() (model.Searches, error)
+}

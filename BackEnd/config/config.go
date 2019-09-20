@@ -7,6 +7,7 @@ const (
 	MongoHost   string = "localhost"
 	MongoDbName string = "HealthCampaign"
 
+
 	CollectionAlteration          string = "alteration"
 	CollectionPatient             string = "patient"
 	CollectionGroup               string = "group"
@@ -16,4 +17,6 @@ const (
 	CollectionMessage             string = "message"
 	CollectionMedicalCenter       string = "medicalCenter"
 	CollectionMedicalStaff        string = "medicalStaff"
+	CollectionHashtag        	  string = "hashtag"
+	CollectionSearch              string = "search"
 )
