@@ -77,4 +77,5 @@ type MessageUsecase interface {
 	UpdateMessage(string, *model.Message) (*model.Message, error)
 	GetByID(string) (*model.Message, error)
 	GetAll() (model.Messages, error)
+	GetAllByGroupId(string) (model.Messages, error)
 }

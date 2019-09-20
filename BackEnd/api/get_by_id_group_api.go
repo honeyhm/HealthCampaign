@@ -9,7 +9,7 @@ import (
 
 func GetByGroupId(Ctx iris.Context){
 	id:=Ctx.URLParam("id")
-	p,gtAllErr:=GroupUsecase.GetById(id)
+	p,gtAllErr:=GroupUsecase.GetByID(id)
 	golog.Info(gtAllErr)
 	Ctx.JSON(&p)
 

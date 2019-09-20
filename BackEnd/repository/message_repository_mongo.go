@@ -66,3 +66,17 @@ func (r *MessageRepositoryMongo) FindAll() (model.Messages, error) {
 
 }
 
+
+func (r *MessageRepositoryMongo) FindAllByGroupId(id string) (model.Messages, error) {
+	var Messages model.Messages
+
+	err := r.db.C(r.collection).Find(bson.M{"message_id":id}).All(&Messages)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return Messages, nil
+
+}
+

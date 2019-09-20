@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed6c6668-de21-4b03-8970-323569ba85be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/get_all_camp_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/get_all_comment_by_group_id_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/get_all_group_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/get_by_id_campaign_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/get_by_id_group_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/api/save_message_api.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/model/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/model/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/repository/message_repository_mongo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/repository/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/repository/repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/usecase/usecase.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -80,7 +78,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HealthCampaign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HealthCampaign" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -115,6 +123,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -145,7 +154,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BackEnd/api/api_get.go</url>
-          <line>26</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
